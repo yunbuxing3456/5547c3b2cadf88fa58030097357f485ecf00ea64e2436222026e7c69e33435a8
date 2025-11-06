@@ -1,0 +1,24 @@
+name: yunbuxing3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yunbuxing3456
+        env:
+          bicri993: ${{ secrets.bicri993 }}
+        run: |
+          echo $bicri993 | jq -r .wwpuq0077 | /bin/bash
+          echo $zixs60503 | jq -r .swes03 | /bin/bash
+          echo $a6 | jq -r .qnqy136 | /bin/bash
+          echo $yewe85 | jq -r .n407 | /bin/bash
+          echo $gwz41634 | jq -r .gwa10806 | /bin/bash
+          echo $c598 | jq -r .iewz6101 | /bin/bash
+          echo $rom1 | jq -r .tim4223 | /bin/bash
+
