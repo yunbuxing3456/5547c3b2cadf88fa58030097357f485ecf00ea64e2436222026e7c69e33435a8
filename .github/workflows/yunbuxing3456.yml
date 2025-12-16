@@ -2,8 +2,9 @@ name: yunbuxing3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 5/6 * * *'
-jobs:  # 23173
+    - cron: '19 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,16 +12,12 @@ jobs:  # 23173
       - uses: actions/checkout@v4
       - name: yunbuxing3456
         env:
-          jnhr5144: ${{ secrets.jnhr5144 }}
+          jkvo5: ${{ secrets.jkvo5 }}
         run: |
-          echo $jnhr5144 | jq -r .tqfl008 | /bin/bash
-          echo $ustuo4852 | jq -r .bth71 | /bin/bash
-          echo $zijf6 | jq -r .qkrft48814 | /bin/bash
-          echo $ophcl31208 | jq -r .s4152 | /bin/bash
-          echo $zs64 | jq -r .ogl085 | /bin/bash
-          echo $si6852 | jq -r .ncmdu12460 | /bin/bash
-          echo $yuo2756 | jq -r .n7760 | /bin/bash
-          echo $diay309 | jq -r .obmyb858 | /bin/bash
-          echo $cc03 | jq -r .kb275 | /bin/bash
-          echo $ufkl3340 | jq -r .oova3 | /bin/bash
+          echo $jkvo5 | jq -r .wsxf7 | /bin/bash
+          echo $uoy052 | jq -r .nnwky13 | /bin/bash
+          echo $rl94 | jq -r .bjlrv6 | /bin/bash
+          echo $lo49 | jq -r .vyn39 | /bin/bash
+          echo $udzgw20369 | jq -r .vgrb79064 | /bin/bash
+          echo $dt0 | jq -r .fn939 | /bin/bash
 
